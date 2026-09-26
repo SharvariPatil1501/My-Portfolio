@@ -79,6 +79,8 @@ section{padding:64px 0;}
 .about-img-placeholder{width:260px; height:320px; border-radius:16px;}
 .about-col.right{flex:1; min-width:280px;}
 .about-col.right p{color:var(--muted); margin-bottom:16px; line-height:1.7;}
+.about__row--centered{justify-content:center; text-align:center;}
+.about__row--centered .about-col.right{max-width:720px;}
 
 /* Cards (shared: projects, experience, education, certifications) */
 .cards-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:24px;}
